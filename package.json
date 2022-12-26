@@ -1,20 +1,25 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.1",
     "bootstrap": "^5.2.0",
     "coingecko-api": "^1.0.10",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
     "https": "^1.0.0",
     "md5": "^2.3.0",
-    "mongoose": "^6.8.0",
+    "mongoose": "^6.8.1",
     "mongoose-encryption": "^2.1.2",
     "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local-mongoose": "^7.1.2",
     "path": "^0.12.7",
     "xhr2": "^0.2.1"
   },
   "name": "chartview-1",
-  "description": "",
+  "description": "This project can show the live charts for crypto coins, their high's and low's, buy sell volume and other details that you might need.",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -30,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/MisraSwarup45/ChartView/issues"
   },
-  "homepage": "https://github.com/MisraSwarup45/ChartView#readme"
+  "homepage": "https://github.com/MisraSwarup45/ChartView#readme",
+  "keywords": []
 }

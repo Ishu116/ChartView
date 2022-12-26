@@ -65,7 +65,7 @@
                     <form name="login" class="form" action="/login" method="POST">
                         <div class="input-control">
                             <label for="email" class="input-label" hidden>Email Address</label>
-                            <input type="email" name="email" id="email" class="input-field" placeholder="Email Address">
+                            <input type="email" name="username" id="email" class="input-field" placeholder="Email Address">
                         </div>
                         <div class="input-control" style="margin-bottom: 0px;">
                             <label for="password" class="input-label" hidden>Password</label>
@@ -86,6 +86,7 @@
                     <%}else{%>
                         <div class="col">
                             <h2 style="text-align: center;"><b>Hi, <%=label%></b></h2>
+                            <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
                         </div>
                     <%}%>
                     <!-- <div class="striped">
